@@ -1,11 +1,11 @@
+import { Contacts } from "./pages/Contacts";
 
 
-function App() {
+export function App() {
   return (
     <div className="App">
-      App
+      <Contacts/>
     </div>
   );
 }
 
-export default App;
